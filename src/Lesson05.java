@@ -1,7 +1,11 @@
 public class Lesson05 {
     public static void main (String[]args){
-        int randomNum = 5;
-
+        int a = 10;
+        do {
+            System.out.println(a);
+            a++;
+        }while(a<10);
+        System.out.println("_______________________________");
         for (int i = 0; i < 10; i+=2){ // напишет только парные числа
             System.out.println(i);
             //randomNum++;
